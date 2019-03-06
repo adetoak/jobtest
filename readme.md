@@ -14,22 +14,22 @@ To test for the questions in the test, access the urls with the request stated i
 
 #1 Add a new user
 -- /api/signup ------ POST  
-firstname
-lastname
-date_of_birth
-username
-email
+firstname, 
+lastname, 
+date_of_birth, 
+username, 
+email, 
 password
  
 -- /api/login ------ POST
 #parameters
-email
-password
+email, 
+password, 
 
 -- /api/countries ---------POST
 #parameters
-name
-continent
+name, 
+continent, 
 
 -- /api/countries   ---------GET
 

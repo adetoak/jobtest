@@ -1,11 +1,13 @@
 -----Steps-----
 
 #1 Run composer update. //This will install all dependies used in the project
- #2 Create a Mysql database and add details to the project .env file
+
+#2 Create a Mysql database and add details to the project .env file
  In the project I created a database called jobtest and added the details to .env file as seen below
     DB_DATABASE=jobtest
     DB_USERNAME=root
     DB_PASSWORD=
+
 #3 php artisan migrate //This will create all database tables needed for the project
 
 To test for the questions in the test, access the urls with the request stated in front
